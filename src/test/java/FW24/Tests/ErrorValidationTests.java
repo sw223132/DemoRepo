@@ -30,6 +30,9 @@ public class ErrorValidationTests extends BaseTest{
 		CartPage cartPage = productCatalog.goToCartPage();	 
 		Boolean match = cartPage.verifyCartProduct("IPHONE 13 PRO");
 		Assert.assertTrue(match);
+		System.out.println("Git demo US shift code line 1");
+		System.out.println("Git demo US shift code line 2");
+		System.out.println("Git demo US shift code line 3");
 	}
 	
 }
